@@ -12,8 +12,8 @@
         <div class="navbar-fixed nav2">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo center">EasyDomo</a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="index.html" class="brand-logo center">EasyDomo</a>
+                    <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                             <li><a href="#modal1" class="modal-trigger"><i class="material-icons right">perm_identity</i>Registrarte</a></li>
                             <li><a href="#modal2" class="modal-trigger"><i class="material-icons right">power_settings_new</i>Iniciar Sesi&oacute;n</a></li>
@@ -90,7 +90,7 @@
                 <div id="modal2" class="modal">
                     <div class="modal-content">
                         <div class="row">
-                            <form class="col s12">  
+                            <form class="col s12" action="login.php" method="post">  
                                     <h3>Registro Usuarios</h3>
                                     <div class="input-field col s6">
                                         <i class="material-icons prefix">perm_identity</i>
@@ -103,23 +103,55 @@
                                         <input id="icon_dialpad" type="password" maxlength="15" length="15" class="validate">
                                         <label for="icon_dialpad">Password</label>
                                     </div>  
-                            </form>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <a href="#!" class="modal-action modal-close btn-flat"><button class="btn waves-effect waves-teal" type="submit" name="action">Cancelar
                             <i class="material-icons right">not_interested</i></button></a>
-                        <a href="#!" class="modal-action modal-close btn-flat"><button href="#!" class="btn waves-effect waves-teal" type="submit" name="action">Ingresar
+                        <a class="modal-action modal-close btn-flat"><button class="btn waves-effect waves-teal" type="submit" name="action">Ingresar
                             <i class="material-icons right">send</i></button></a>   
                     </div>
+                                                </form>
             </div>
         </div>
-        
-            
-            <br><br><br><br><br>
-            <br><br><br><br><br>
-            <br><br><br><br><br>
-            <br><br><br><br><br>
+        <div class="row">
+        <div class="col s6 ">
+          <div class="card">
+            <div class="card-image">
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=zyWDM5GBkfB4.kRWvj2PLUIMw" width="640" height="480"></iframe>
+              <span class="card-title">Card Title</span>
+            </div>
+          </div>
+        </div>
+                <form class="col s6" action="comentario.php" method="post">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="first_name" type="text" class="validate" name="nombre_com">
+          <label for="first_name">Nombre</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" name="email_com">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12">
+            <input type="text" id="textarea1" class="materialize-textarea" name="comen_com"></textarea>
+          <label for="textarea1">comentario</label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+          </div>
+      </div>
+
+    </form>
+        </div>
         <!-- Footer -->
         <footer class="page-footer">
           <div class="container">
