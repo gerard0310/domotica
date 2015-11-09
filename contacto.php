@@ -3,7 +3,7 @@
     <head>
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="estilo.css"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
         <title>Panel Usuario</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -163,6 +163,10 @@
                 <p class="grey-text text-lighten-4">Jonathan Hernandez</p>
               </div>
               <div class="col l4 offset-l2 s12">
+<<<<<<< HEAD:contacto.html
+                  <img class="upslp responsive-img" src="img/upslp.jpg">
+=======
+>>>>>>> origin/master:contacto.php
               </div>
             </div>
           </div>
