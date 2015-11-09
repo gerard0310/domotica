@@ -31,7 +31,7 @@
                 <div id="modal1" class="modal">
                     <div class="modal-content">
                         <div class="row">
-                            <form class="col s12">  
+                            <form class="col s12" action="registro.php" method="post">  
                                     <h3>Registro Usuarios</h3>
                                     <div class="input-field col s6">
                                         <input type="text" name="nombre_registro" length="20" maxlength="20" class="validate">
@@ -78,7 +78,7 @@
                     <div class="modal-footer">
                         <a href="#!" class="modal-action modal-close btn-flat"><button class="btn waves-effect waves-teal" type="submit" name="action">Cancelar
                             <i class="material-icons right">not_interested</i></button></a>
-                        <a href="#!" class="modal-action modal-close btn-flat"><button href="#!" class="btn waves-effect waves-teal" type="submit" name="action">Registrar
+                        <a href="#!" class="modal-action modal-close btn-flat"><button class="btn waves-effect waves-teal" type="submit" name="action">Registrar
                             <i class="material-icons right">send</i></button></a>   
                     </div>
                 </div>
@@ -127,11 +127,10 @@
               <div class="col m6 s12">
                 <h6 class="white-text">Programacion Web II</h6>
                 <p class="grey-text text-lighten-4">Desarrollado Por:</p>
-                <p class="grey-text text-lighten-4">Jorge Eduardo Fernandez Vazquez</p>
+                <p class="grey-text text-lighten-4">Luis Gerardo Serna Carrizales</p>
                 <p class="grey-text text-lighten-4">Jonathan Hernandez</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                  <img class="upslp responsive-img" src="upslp.jpg">
               </div>
             </div>
           </div>
